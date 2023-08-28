@@ -53,6 +53,8 @@ def get_circle_area_given_radius(radius):
     except Exception as ex:
         logger.error(f"Error: {ex}")
         return None
+    finally:
+        print('Done!')
 
 
 def get_circle_areas_given_list(radius_list):
@@ -103,20 +105,20 @@ if __name__ == "__main__":
     logger.info("")
 
     logger.info("TRY: Call get_circle_area_given_radius() function with a different values.")
-    get_circle_area_given_radius(5)
-    get_circle_area_given_radius(-16)
+    get_circle_area_given_radius(10)
+    get_circle_area_given_radius(-23)
     get_circle_area_given_radius(math.inf)
     get_circle_area_given_radius('five')
     logger.info("")
 
     logger.info("TRY: Call get_circle_areas_given_list() function with a list of GOOD values")
-    good_list = [5, 10, 25, 30, 45, 50]
+    good_list = [7, 15, 21, 30, 40, 59]
     get_circle_areas_given_list(good_list)
     logger.info("")
 
 
     logger.info("TRY: Call get_circle_areas_given_list() function with a list that may include BAD values")
-    bad_list = [-5, 0, math.inf, '30']
+    bad_list = [-5, -11, math.inf, '40']
     get_circle_areas_given_list(bad_list)
 
     print("Done. Please check the log file for more details.")
