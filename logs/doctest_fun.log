@@ -1,52 +1,52 @@
-2023-08-28 11:22:57,276.doctest_fun.INFO ==================================================
-2023-08-28 11:22:57,277.doctest_fun.INFO Today is 2023-08-28 at 11:22 AM
-2023-08-28 11:22:57,305.doctest_fun.INFO Running on: nt Windows 10
-2023-08-28 11:22:57,305.doctest_fun.INFO Python version:  3.11.5
-2023-08-28 11:22:57,305.doctest_fun.INFO Python path: C:\Users\mvang\AppData\Local\Programs\Python\Python311
-2023-08-28 11:22:57,306.doctest_fun.INFO Working dir: C:\Users\mvang\NW Week 2\datafun-02-functions
-2023-08-28 11:22:57,306.doctest_fun.INFO ==================================================
-2023-08-28 11:22:57,306.doctest_fun.INFO CALLING add_two(5,5)
-2023-08-28 11:22:57,306.doctest_fun.INFO RETURNING 10
-2023-08-28 11:22:57,307.doctest_fun.INFO CALLING add_triangle_list([5, 5, 5])
-2023-08-28 11:22:57,307.doctest_fun.INFO RETURNING 15
-2023-08-28 11:22:57,308.doctest_fun.INFO CALLING add_any_using_args((2,))
-2023-08-28 11:22:57,308.doctest_fun.INFO RETURNING 2
-2023-08-28 11:22:57,309.doctest_fun.INFO CALLING add_any_using_args((2, 2))
-2023-08-28 11:22:57,309.doctest_fun.INFO RETURNING 4
-2023-08-28 11:22:57,309.doctest_fun.INFO CALLING add_any_using_args((2, 2, 2))
-2023-08-28 11:22:57,309.doctest_fun.INFO RETURNING 6
-2023-08-28 11:22:57,309.doctest_fun.INFO CALLING add_any_using_args((2, 2, 2, 2))
-2023-08-28 11:22:57,310.doctest_fun.INFO RETURNING 8
-2023-08-28 11:22:57,310.doctest_fun.INFO CALLING add_any_with_keywords({'a': 8, 'b': 2})
-2023-08-28 11:22:57,310.doctest_fun.INFO RETURNING 10
-2023-08-28 11:22:57,310.doctest_fun.INFO CALLING add_any_with_keywords({'first': 8, 'second': 2, 'third': 3})
-2023-08-28 11:22:57,310.doctest_fun.INFO RETURNING 13
-2023-08-28 11:22:57,310.doctest_fun.INFO CALLING add_any_with_keywords({'only': 8})
-2023-08-28 11:22:57,311.doctest_fun.INFO RETURNING 8
-2023-08-28 11:22:57,311.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
-2023-08-28 11:22:57,311.doctest_fun.INFO RETURNING bearcat
-2023-08-28 11:22:57,311.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
-2023-08-28 11:22:57,311.doctest_fun.INFO RETURNING tacraeb
-2023-08-28 11:22:57,311.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
-2023-08-28 11:22:57,312.doctest_fun.INFO RETURNING olleh
-2023-08-28 11:22:57,312.doctest_fun.INFO ===========================================================
-2023-08-28 11:22:57,312.doctest_fun.INFO Running doctest.testmod() function to unit test our code
-2023-08-28 11:22:57,312.doctest_fun.INFO ===========================================================
-2023-08-28 11:22:57,314.doctest_fun.INFO CALLING add_two(1,2)
-2023-08-28 11:22:57,315.doctest_fun.INFO RETURNING 3
-2023-08-28 11:22:57,315.doctest_fun.INFO CALLING add_two(hello, world)
-2023-08-28 11:22:57,315.doctest_fun.INFO RETURNING hello world
-2023-08-28 11:22:57,315.doctest_fun.INFO CALLING add_triangle_list([3, 4, 5])
-2023-08-28 11:22:57,316.doctest_fun.INFO RETURNING 12
-2023-08-28 11:22:57,316.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
-2023-08-28 11:22:57,316.doctest_fun.INFO RETURNING bearcat
-2023-08-28 11:22:57,316.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
-2023-08-28 11:22:57,316.doctest_fun.INFO RETURNING tacraeb
-2023-08-28 11:22:57,316.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
-2023-08-28 11:22:57,317.doctest_fun.INFO RETURNING olleh
-2023-08-28 11:22:57,317.doctest_fun.INFO CALLING add_any_using_args((1, 1, 1, 1, 1, 1, 1, 1))
-2023-08-28 11:22:57,317.doctest_fun.INFO RETURNING 8
-2023-08-28 11:22:57,317.doctest_fun.INFO CALLING add_any_with_keywords({'a': 1, 'b': 2})
-2023-08-28 11:22:57,317.doctest_fun.INFO RETURNING 3
-2023-08-28 11:22:57,320.doctest_fun.INFO All tests passed!
-2023-08-28 11:22:57,320.doctest_fun.INFO Script complete. More info in the log file.
+2023-09-02 19:27:26,180.doctest_fun.INFO ==================================================
+2023-09-02 19:27:26,181.doctest_fun.INFO Today is 2023-09-02 at 07:27 PM
+2023-09-02 19:27:26,211.doctest_fun.INFO Running on: nt Windows 10
+2023-09-02 19:27:26,212.doctest_fun.INFO Python version:  3.11.5
+2023-09-02 19:27:26,212.doctest_fun.INFO Python path: C:\Users\mvang\AppData\Local\Programs\Python\Python311
+2023-09-02 19:27:26,212.doctest_fun.INFO Working dir: C:\Users\mvang\NW Week 2\datafun-02-functions
+2023-09-02 19:27:26,213.doctest_fun.INFO ==================================================
+2023-09-02 19:27:26,213.doctest_fun.INFO CALLING add_two(5,5)
+2023-09-02 19:27:26,213.doctest_fun.INFO RETURNING 10
+2023-09-02 19:27:26,214.doctest_fun.INFO CALLING add_triangle_list([5, 5, 5])
+2023-09-02 19:27:26,215.doctest_fun.INFO RETURNING 15
+2023-09-02 19:27:26,215.doctest_fun.INFO CALLING add_any_using_args((2,))
+2023-09-02 19:27:26,215.doctest_fun.INFO RETURNING 2
+2023-09-02 19:27:26,215.doctest_fun.INFO CALLING add_any_using_args((2, 2))
+2023-09-02 19:27:26,216.doctest_fun.INFO RETURNING 4
+2023-09-02 19:27:26,216.doctest_fun.INFO CALLING add_any_using_args((2, 2, 2))
+2023-09-02 19:27:26,216.doctest_fun.INFO RETURNING 6
+2023-09-02 19:27:26,216.doctest_fun.INFO CALLING add_any_using_args((2, 2, 2, 2))
+2023-09-02 19:27:26,216.doctest_fun.INFO RETURNING 8
+2023-09-02 19:27:26,217.doctest_fun.INFO CALLING add_any_with_keywords({'a': 8, 'b': 2})
+2023-09-02 19:27:26,217.doctest_fun.INFO RETURNING 10
+2023-09-02 19:27:26,217.doctest_fun.INFO CALLING add_any_with_keywords({'first': 8, 'second': 2, 'third': 3})
+2023-09-02 19:27:26,217.doctest_fun.INFO RETURNING 13
+2023-09-02 19:27:26,217.doctest_fun.INFO CALLING add_any_with_keywords({'only': 8})
+2023-09-02 19:27:26,217.doctest_fun.INFO RETURNING 8
+2023-09-02 19:27:26,217.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-02 19:27:26,218.doctest_fun.INFO RETURNING bearcat
+2023-09-02 19:27:26,218.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-02 19:27:26,218.doctest_fun.INFO RETURNING tacraeb
+2023-09-02 19:27:26,218.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-02 19:27:26,218.doctest_fun.INFO RETURNING olleh
+2023-09-02 19:27:26,218.doctest_fun.INFO ===========================================================
+2023-09-02 19:27:26,219.doctest_fun.INFO Running doctest.testmod() function to unit test our code
+2023-09-02 19:27:26,219.doctest_fun.INFO ===========================================================
+2023-09-02 19:27:26,221.doctest_fun.INFO CALLING add_two(1,2)
+2023-09-02 19:27:26,221.doctest_fun.INFO RETURNING 3
+2023-09-02 19:27:26,221.doctest_fun.INFO CALLING add_two(hello, world)
+2023-09-02 19:27:26,221.doctest_fun.INFO RETURNING hello world
+2023-09-02 19:27:26,222.doctest_fun.INFO CALLING add_triangle_list([3, 4, 5])
+2023-09-02 19:27:26,222.doctest_fun.INFO RETURNING 12
+2023-09-02 19:27:26,222.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-02 19:27:26,222.doctest_fun.INFO RETURNING bearcat
+2023-09-02 19:27:26,223.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-02 19:27:26,223.doctest_fun.INFO RETURNING tacraeb
+2023-09-02 19:27:26,223.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-02 19:27:26,224.doctest_fun.INFO RETURNING olleh
+2023-09-02 19:27:26,224.doctest_fun.INFO CALLING add_any_using_args((1, 1, 1, 1, 1, 1, 1, 1))
+2023-09-02 19:27:26,224.doctest_fun.INFO RETURNING 8
+2023-09-02 19:27:26,225.doctest_fun.INFO CALLING add_any_with_keywords({'a': 1, 'b': 2})
+2023-09-02 19:27:26,225.doctest_fun.INFO RETURNING 3
+2023-09-02 19:27:26,229.doctest_fun.INFO All tests passed!
+2023-09-02 19:27:26,230.doctest_fun.INFO Script complete. More info in the log file.
