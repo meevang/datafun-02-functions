@@ -1,0 +1,32 @@
+2023-09-02 22:21:07,918.user_easy_stats_meevang.INFO ==================================================
+2023-09-02 22:21:07,919.user_easy_stats_meevang.INFO Today is 2023-09-02 at 10:21 PM
+2023-09-02 22:21:07,950.user_easy_stats_meevang.INFO Running on: nt Windows 10
+2023-09-02 22:21:07,951.user_easy_stats_meevang.INFO Python version:  3.11.5
+2023-09-02 22:21:07,951.user_easy_stats_meevang.INFO Python path: C:\Users\mvang\AppData\Local\Programs\Python\Python311
+2023-09-02 22:21:07,951.user_easy_stats_meevang.INFO Working dir: C:\Users\mvang\NW Week 2\datafun-02-functions
+2023-09-02 22:21:07,951.user_easy_stats_meevang.INFO ==================================================
+2023-09-02 22:21:07,958.user_easy_stats_meevang.INFO uni_data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2023-09-02 22:21:07,959.user_easy_stats_meevang.INFO mean   = 5.50
+2023-09-02 22:21:07,960.user_easy_stats_meevang.INFO median = 5.50
+2023-09-02 22:21:07,960.user_easy_stats_meevang.INFO mode   = 1.00
+2023-09-02 22:21:07,960.user_easy_stats_meevang.INFO var    = 9.17
+2023-09-02 22:21:07,961.user_easy_stats_meevang.INFO stdev  = 3.03
+2023-09-02 22:21:07,961.user_easy_stats_meevang.INFO lowest = 1.00
+2023-09-02 22:21:07,961.user_easy_stats_meevang.INFO highest= 10.00
+2023-09-02 22:21:07,962.user_easy_stats_meevang.WARNING Correlation requires Python version 3.10 or greater.
+2023-09-02 22:21:07,962.user_easy_stats_meevang.WARNING Your version is 3.11
+2023-09-02 22:21:07,963.user_easy_stats_meevang.INFO Here's some time series data:
+2023-09-02 22:21:07,963.user_easy_stats_meevang.INFO xtimes:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+2023-09-02 22:21:07,963.user_easy_stats_meevang.INFO yvalues:[2, 3, 8, 20, 21, 28, 30, 33, 33, 39, 42, 44]
+2023-09-02 22:21:07,963.user_easy_stats_meevang.INFO correlation between xtimes and xtimes = 1.00
+2023-09-02 22:21:07,963.user_easy_stats_meevang.INFO correlation between xtimes and yvalues = 0.98
+2023-09-02 22:21:07,963.user_easy_stats_meevang.INFO Here's some bivariant data (2 variables, together):
+2023-09-02 22:21:07,964.user_easy_stats_meevang.INFO x:[-200, -150, -100, 50, 0, 50, 100, 150]
+2023-09-02 22:21:07,964.user_easy_stats_meevang.INFO y:[-240, -165, -99, 35, 19, 75, 130, 125]
+2023-09-02 22:21:07,964.user_easy_stats_meevang.INFO Calculate the slope and intercept of a best fit straight line:
+2023-09-02 22:21:07,964.user_easy_stats_meevang.INFO    slope = 1.09
+2023-09-02 22:21:07,964.user_easy_stats_meevang.INFO    intercept = -1.39
+2023-09-02 22:21:07,964.user_easy_stats_meevang.INFO Let's use our best fit line to PREDICT a future value.
+2023-09-02 22:21:07,965.user_easy_stats_meevang.INFO    At future x = 200,
+2023-09-02 22:21:07,965.user_easy_stats_meevang.INFO    we predict the value of y will be 216.
+2023-09-02 22:21:07,965.user_easy_stats_meevang.INFO How'd we do? Does this make sense given the data?
