@@ -88,7 +88,7 @@ def add_any_using_args(*args):
     logger.info(f"CALLING add_any_using_args({args})")
     sum = 0
     for x in args:
-        sum += x  # Use the popular and concise version of sum = sum + x
+        sum = sum + x  # Use the popular and concise version of sum = sum + x
 
     logger.info(f"RETURNING {sum}")
     return sum
@@ -98,8 +98,8 @@ def add_any_with_keyword_arguments_kwargs(**kwargs):
     """Return the sum of numbers, using built-in keyword args, **kwargs."""
     logger.info(f"CALLING add_any_with_keywords({kwargs})")
     sum = 0
-    for value in kwargs.values():  # use values() - name doesn't matter
-        sum += value  # Use the popular and concise version of sum = sum + x
+    for x in kwargs.values():  # use values() - name doesn't matter
+        sum = sum + x  # Use the popular and concise version of sum = sum + x
     
     logger.info(f"RETURNING {sum}")
     return sum
